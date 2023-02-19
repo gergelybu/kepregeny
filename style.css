@@ -7,17 +7,36 @@
   font-family: comic-sans;
   src: url(/comic.ttf);
 }
+body {
+  background-image: url(/img/háttérkép.avif);
+
+}
 
 main {
   max-width: 80%;
   margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; /*nem érzékelem az árnyékot
+  de szerintem kellene valami erő teljes*/
 }
 
 header {
-  border: solid black 1px;
+  border: solid black 3px;
+  background-image: url(/img/képregény_head1.jpg);
+  background-size: cover;
   height: 300px;
   width: 100%;
+  /* a header el van csuszva nem tudom hogy mi lehet a gond.*/
+}
+header,
+h1,
+h3 {
   font-family: comic-sans;
+  color:  azure;
+  text-align: center;
+  font-size: xx-large;
+  padding-right: 10px;
+  text-transform: uppercase;
+
 }
 
 .menu {
@@ -71,34 +90,48 @@ main .flex-item:nth-child(3) {
 }
 
 nav {
-  border: solid black 1px;
+  border: solid black 2px;
   width: 10%;
   height: 800px;
   padding: 10px;
-  background-image: url(/img/comic-book-template.jpg);
-  background-size: contain; 
+  /*background-image: url(/img/comic-book-template.jpg);*/
+  background-image: url(/img/képregény\ háttér.jpg);
+  background-color: aliceblue;
+  background-size: contain;
 }
 
 nav ul li {
   list-style: none;
+  /*border: solid 2px black;*/
+  margin: 5px;
   padding-bottom: 20px;
   font-family: comic-sans;
 }
 
-
 nav ul li a {
+  color: aliceblue;
   text-decoration: none;
 }
 
 Article {
-  border: solid black 1px;
+  border: solid black 2px;
   width: 70%;
+  background-color: aliceblue;
 }
 aside {
-  border: solid black 1px;
+  border: solid black 3px;
   width: 20%;
   padding: 5px;
+  padding-right: 5px;
+  background-color: aliceblue;
+  background-image: url(/img/képrgény_háttér2.jpg);
+  background-size: contain;
   font-family: Arial, Helvetica, sans-serif;
+}
+aside,
+p {
+  padding: 10px;
+  color: aliceblue;
 }
 
 aside p {
@@ -106,10 +139,12 @@ aside p {
 }
 
 footer {
-  border: solid black 1px;
+  border: solid black 2px;
   width: 100%;
   text-align: center;
   height: 20px;
+  color: aliceblue;
+  background-image: url(/img/háttérkép.avif);
 }
 
 @media screen and (max-width: 600px) {
