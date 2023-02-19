@@ -9,7 +9,6 @@
 }
 body {
   background-image: url(/img/háttérkép.avif);
-
 }
 
 main {
@@ -24,19 +23,18 @@ header {
   background-image: url(/img/képregény_head1.jpg);
   background-size: cover;
   height: 300px;
-  width: 100%;
   /* a header el van csuszva nem tudom hogy mi lehet a gond.*/
 }
+
 header,
 h1,
 h3 {
   font-family: comic-sans;
-  color:  azure;
+  color: azure;
   text-align: center;
   font-size: xx-large;
   padding-right: 10px;
   text-transform: uppercase;
-
 }
 
 .menu {
@@ -140,7 +138,6 @@ aside p {
 
 footer {
   border: solid black 2px;
-  width: 100%;
   text-align: center;
   height: 20px;
   color: aliceblue;
@@ -166,9 +163,16 @@ footer {
     order: 1;
   }
 
+  header {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+  }
+
   nav {
     width: auto;
     height: 25px;
+    background-size: cover;
   }
 
   Article {
@@ -179,6 +183,7 @@ footer {
   aside {
     width: auto;
     height: auto;
+    background-size: cover;
   }
 
   .menu {
