@@ -114,8 +114,27 @@ nav ul li a {
 Article {
   border: solid black 2px;
   width: 70%;
-  background-color: aliceblue;
+  background-image: url(/img/hatter3.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
 }
+div{
+  border: 1px solid black;
+  text-align: center;
+  width: auto;
+  height: auto;
+  margin: 1px;
+}
+img{
+  width: 250px;
+  height: 260px;
+}
+
+
 aside {
   border: solid black 3px;
   width: 20%;
@@ -130,10 +149,12 @@ aside,
 p {
   padding: 10px;
   color: aliceblue;
+  
 }
 
 aside p {
   text-align: justify;
+  background:rgb(3, 2, 2, .4);
 }
 
 footer {
