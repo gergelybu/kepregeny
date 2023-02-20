@@ -5,7 +5,7 @@
 
 @font-face {
   font-family: comic-sans;
-  src: url(/comic.ttf);
+  src: url('./comic.ttf');
 }
 body {
   background-image: url(./img/háttérkép.avif);
