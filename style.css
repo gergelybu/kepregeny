@@ -8,7 +8,7 @@
   src: url(/comic.ttf);
 }
 body {
-  background-image: url(/img/háttérkép.avif);
+  background-image: url(./img/háttérkép.avif);
 }
 
 main {
@@ -20,7 +20,7 @@ main {
 
 header {
   border: solid black 3px;
-  background-image: url(/img/képregény_head1.jpg);
+  background-image: url(./img/képregény_head1.jpg);
   background-size: cover;
   height: 300px;
   /* a header el van csuszva nem tudom hogy mi lehet a gond.*/
@@ -93,7 +93,7 @@ nav {
   height: 800px;
   padding: 10px;
   /*background-image: url(/img/comic-book-template.jpg);*/
-  background-image: url(/img/képregény\ háttér.jpg);
+  background-image: url(./img/képregény\ háttér.jpg);
   background-color: aliceblue;
   background-size: contain;
 }
@@ -114,7 +114,7 @@ nav ul li a {
 Article {
   border: solid black 2px;
   width: 70%;
-  background-image: url(/img/hatter3.jpg);
+  background-image: url(./img/hatter3.jpg);
   background-size: cover;
   display: flex;
   flex-direction: row;
@@ -141,7 +141,7 @@ aside {
   padding: 5px;
   padding-right: 5px;
   background-color: aliceblue;
-  background-image: url(/img/képrgény_háttér2.jpg);
+  background-image: url(./img/képrgény_háttér2.jpg);
   background-size: contain;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -162,7 +162,7 @@ footer {
   text-align: center;
   height: 20px;
   color: aliceblue;
-  background-image: url(/img/háttérkép.avif);
+  background-image: url(./img/háttérkép.avif);
 }
 
 main form {
