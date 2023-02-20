@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Free Web tutorials" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="John Doe" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Deadpool</h1>
+        <h3>Zsémbes zsoldos</h3>
+      </header>
+      <div class="flex-container">
+        <nav class="flex-item">
+          <ul class="menu">
+            <li class="menu-item">
+              <a href="index.html">Képregény</a>
+            </li>
+            <li class="menu-item">
+              <a href="kerdoiv.html">Kérdőív</a>
+            </li>
+          </ul>
+        </nav>
+        <article class="flex-item">
+          <h3>
+            Reméljük tetszett a képregény, kérlek válaszolj néhány kérdésre!
+          </h3>
+          <form action="#" class="urlap">
+            <fieldset>
+              <h4>Kérlek add meg az adataidat:</h4>
+              <label for="nname">Beceneved:</label>
+              <input
+                type="text"
+                id="nname"
+                name="fname"
+                value=""
+                placeholder="Becenév"
+              /><br />
+              <label for="lname"></label>
+              <label for="email">Enter your email:</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="név@email.com"
+              />
+            </fieldset>
+            <fieldset>
+              <h4>Hogy tetszett a képregény?</h4>
+              <input type="radio" id="egy" name="ertekeles" value="egy" />
+              <label for="html">1</label>
+              <input type="radio" id="ketto" name="ertekeles" value="ketto" />
+              <label for="ketto">2</label>
+              <input type="radio" id="harom" name="ertekeles" value="harom" />
+              <label for="harom">3</label>
+              <input type="radio" id="negy" name="ertekeles" value="negy" />
+              <label for="negy">4</label>
+              <input type="radio" id="ot" name="ertekeles" value="ot" />
+              <label for="ot">5</label>
+              <h4>Mi a véleményed Deadpoolról?</h4>
+              <input
+                type="checkbox"
+                id="deadpool1"
+                name="deadpool"
+                value="vicces"
+              />
+              <label for="deadpool1">Vicces</label>
+              <input
+                type="checkbox"
+                id="deadpool2"
+                name="deadpool"
+                value="faraszto"
+              /><label for="deadpool2">Fárasztó</label>
+              <input
+                type="checkbox"
+                id="deadpool3"
+                name="deadpool"
+                value="bugyuta"
+              />
+              <label for="deadpool3">Bugyuta</label>
+              <input
+                type="checkbox"
+                id="deadpool4"
+                name="deadpool"
+                value="bugyuta"
+              />
+              <label for="deadpool4">Érdekes</label>
+              <input
+                type="checkbox"
+                id="deadpool5"
+                name="deadpool"
+                value="bugyuta"
+              />
+              <label for="deadpool5">Túl vérengzős</label>
+              <h4>Olvasnál még Deadpool képregényt?</h4>
+              <label for="megdeadpool">Kérlek válassz a lehetőségekből</label>
+              <select id="megdeadpool" name="megdeadpool">
+                <option value="igen">Igen</option>
+                <option value="lehet">Lehet</option>
+                <option value="nem biztos">Nem biztos</option>
+                <option value="soha">Nem</option>
+              </select>
+            </fieldset>
+            <fieldset>
+              <h4>Egyéb véleményedet is kérlek oszd meg velünk!</h4>
+              <textarea name="message" rows="10" cols="50"></textarea>
+            </fieldset>
+            <input type="Button" value="Beküldés" />
+          </form>
+        </article>
+        <aside class="flex-item">
+          <h2>Deadpoolról</h2>
+          <p>Valódi név: Jack (teljes neve ismeretlen)</p>
+          <p>
+            Foglalkozás: Zsoldos, korábban végrehajtó, a korményügynöke,
+            szumóbirkózó, katona.
+          </p>
+          <p>Személyazonosság: Kanadai kormánytisztviselők által ismert.</p>
+          <p>Jogi státusz: Kanadai állampolgár.</p>
+          <p>Születési hely: Ismeretlen.</p>
+          <p>Ismert rokonok: Ismeretlen szülők, három ex-feleség.</p>
+          <p>Működési helyszin: New York City.</p>
+          <p>Magasság: 188cm.</p>
+          <p>Súly: 95 Kg.</p>
+          <p>Szeme szine: Barna</p>
+          <p>Haja szine: Nincs</p>
+        </aside>
+      </div>
+      <footer>Készítette: Burai Gergely és Gulácsi Zoltán</footer>
+    </main>
+  </body>
+</html>

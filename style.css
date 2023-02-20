@@ -144,6 +144,30 @@ footer {
   background-image: url(/img/háttérkép.avif);
 }
 
+main form {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+main h3 {
+  color: black !important;
+}
+main fieldset {
+  margin: 3px;
+}
+main form {
+  text-align: center;
+}
+
+.urlap {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-content: stretch;
+  align-items: stretch;
+}
+
 @media screen and (max-width: 600px) {
   main .flex-container {
     display: flex;
@@ -197,5 +221,9 @@ footer {
     order: 0;
     flex: 0 1 auto;
     align-self: auto;
+  }
+
+  .urlap {
+    align-items: flex-start;
   }
 }
