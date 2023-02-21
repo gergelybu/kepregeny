@@ -5,7 +5,7 @@
 
 @font-face {
   font-family: comic-sans;
-  src: url('./comic.ttf');
+  src: url("./comic.ttf");
 }
 body {
   background-image: url(./img/háttérkép.avif);
@@ -35,6 +35,7 @@ h3 {
   font-size: xx-large;
   padding-right: 10px;
   text-transform: uppercase;
+  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
 }
 
 .menu {
@@ -60,7 +61,6 @@ h3 {
 }
 
 main .flex-container {
-  width: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -92,10 +92,10 @@ nav {
   width: 10%;
   height: 800px;
   padding: 10px;
-  /*background-image: url(/img/comic-book-template.jpg);*/
   background-image: url(./img/képregény\ háttér.jpg);
   background-color: aliceblue;
   background-size: contain;
+  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
 }
 
 nav ul li {
@@ -122,18 +122,19 @@ Article {
   justify-content: center;
   align-content: center;
 }
-div{
+
+div {
   border: 1px solid black;
   text-align: center;
   width: auto;
   height: auto;
   margin: 1px;
 }
-img{
+
+img {
   width: 250px;
   height: 260px;
 }
-
 
 aside {
   border: solid black 3px;
@@ -145,16 +146,16 @@ aside {
   background-size: contain;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 aside,
 p {
   padding: 10px;
   color: aliceblue;
-  
 }
 
 aside p {
   text-align: justify;
-  background:rgb(3, 2, 2, .4);
+  background: rgb(3, 2, 2, 0.4);
 }
 
 footer {
@@ -173,9 +174,11 @@ main form {
 .urlap h3 {
   color: black;
 }
+
 main fieldset {
   margin: 3px;
 }
+
 main form {
   text-align: center;
 }
@@ -243,5 +246,4 @@ main form {
     flex: 0 1 auto;
     align-self: auto;
   }
-
 }
