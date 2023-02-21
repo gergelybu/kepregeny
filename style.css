@@ -192,6 +192,16 @@ main form {
   align-items: stretch;
 }
 
+.book1, .book2, .book {
+  transition: transform .2s;
+  width: 250px;
+  height: 260px;
+}
+
+.book:hover, .book1:hover, .book2:hover {
+  transform: scale(2);
+}
+
 @media screen and (max-width: 600px) {
   main .flex-container {
     display: flex;
