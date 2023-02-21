@@ -170,8 +170,8 @@ main form {
   padding-right: 12px;
 }
 
-form h3 {
-  color: black !important;
+.urlap h3 {
+  color: black;
 }
 main fieldset {
   margin: 3px;
