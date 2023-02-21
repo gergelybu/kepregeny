@@ -251,4 +251,8 @@ footer {
     flex: 0 1 auto;
     align-self: auto;
   }
+  
+  .urlap {
+    text-shadow: 0 0 3px #ffffff, 0 0 5px #ffffff;
+  }
 }
